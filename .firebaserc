@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ventasdb-1c7a7": {
+      "hosting": {
+        "appventas": [
+          "ventasdb-1c7a7"
+        ]
+      }
+    }
+  }
+}
