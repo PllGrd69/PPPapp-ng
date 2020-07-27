@@ -19,6 +19,8 @@ import { LoginComponent } from './web/login/login.component';
 import { FormsModule } from '@angular/forms';
 import { from } from 'rxjs';
 import { AdministradorComponent } from './web/administrador/administrador.component';
+import { PerfilComponent } from './web/administrador/perfil/perfil.component';
+import { PerfilvaComponent } from './web/administrador/perfilva/perfilva.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { AdministradorComponent } from './web/administrador/administrador.compon
     ProductosComponent,
     ContactoComponent,
     LoginComponent,
-    AdministradorComponent
+    AdministradorComponent,
+    PerfilComponent,
+    PerfilvaComponent
   ],
   imports: [
     BrowserModule,
