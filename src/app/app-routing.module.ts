@@ -6,6 +6,7 @@ import { LoginComponent } from './web/login/login.component';
 import { AdministradorComponent } from './web/administrador/administrador.component';
 import { AuthGuard } from './guards/auth.guard';
 import { PerfilComponent } from './web/administrador/perfil/perfil.component';
+import { PerfilvaComponent } from './web/administrador/perfilva/perfilva.component';
 
 
 const routes: Routes = [
@@ -13,7 +14,8 @@ const routes: Routes = [
   {path:'home',component:HomeComponent},
   {path: '',component:LoginComponent},
   {path: 'administrador',component:AdministradorComponent, canActivate:[AuthGuard]},
-  {path: 'perfiladmin', component:PerfilComponent}
+  {path: 'perfiladmin', component:PerfilComponent},
+  {path: 'perfilva', component:PerfilvaComponent}
 ];
 
 @NgModule({
