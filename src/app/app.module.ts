@@ -21,6 +21,7 @@ import { from } from 'rxjs';
 import { AdministradorComponent } from './web/administrador/administrador.component';
 import { PerfilComponent } from './web/administrador/perfil/perfil.component';
 import { PerfilvaComponent } from './web/administrador/perfilva/perfilva.component';
+import { RegcaComponent } from './web/administrador/regca/regca.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { PerfilvaComponent } from './web/administrador/perfilva/perfilva.compone
     LoginComponent,
     AdministradorComponent,
     PerfilComponent,
-    PerfilvaComponent
+    PerfilvaComponent,
+    RegcaComponent
   ],
   imports: [
     BrowserModule,
