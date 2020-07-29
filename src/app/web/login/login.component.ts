@@ -24,11 +24,11 @@ export class LoginComponent implements OnInit {
     this.authService.loginEmail(this.email,this.password).
     then((res)=>{
       console.log(res);
-      this.toastr.success('Bien CPP');
+      this.toastr.success('Ingreso Correcto');
       this.router.navigate(['./administrador']);
     }).catch((err)=>{
       console.log(err)
-      this.toastr.error('Mal CPP');
+      this.toastr.error('Error : Usuario o contraseña incorrecta');
     })
   }
 

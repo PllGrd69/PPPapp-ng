@@ -24,12 +24,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/style.css",
               "node_modules/bootstrap/dist/css/bootstrap_lux.css",
               "node_modules/ngx-toastr/toastr.css",
               "node_modules/swiper/swiper-bundle.css",
               "node_modules/font-awesome/css/font-awesome.css",
-              "node_modules/animate.css/animate.css"
+              "node_modules/animate.css/animate.css",
+              "node_modules/wowjs/css/libs/animate.css",
+              "src/style.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.js",
@@ -37,6 +38,7 @@
               "node_modules/bootstrap/dist/js/bootstrap.js",
               "node_modules/swiper/swiper-bundle.js",
               "node_modules/ngx-wow/bundles/ngx-wow.umd.js",
+              "node_modules/wowjs/dist/wow.js",
               "src/main.js"
             ]
           },

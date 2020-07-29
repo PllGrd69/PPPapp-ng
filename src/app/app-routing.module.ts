@@ -8,6 +8,7 @@ import { AuthGuard } from './guards/auth.guard';
 import { PerfilComponent } from './web/administrador/perfil/perfil.component';
 import { PerfilvaComponent } from './web/administrador/perfilva/perfilva.component';
 import { RegcaComponent } from './web/administrador/regca/regca.component';
+import { EvaluacionComponent } from './web/administrador/evaluacion/evaluacion.component';
 
 
 const routes: Routes = [
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path: 'administrador',component:AdministradorComponent, canActivate:[AuthGuard]},
   {path: 'perfiladmin', component:PerfilComponent},
   {path: 'perfilva', component:PerfilvaComponent},
-  {path: 'regca', component:RegcaComponent}
+  {path: 'regca', component:RegcaComponent},
+  {path: 'evaluacion', component:EvaluacionComponent}
 ];
 
 @NgModule({

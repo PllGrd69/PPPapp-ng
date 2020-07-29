@@ -22,6 +22,8 @@ import { AdministradorComponent } from './web/administrador/administrador.compon
 import { PerfilComponent } from './web/administrador/perfil/perfil.component';
 import { PerfilvaComponent } from './web/administrador/perfilva/perfilva.component';
 import { RegcaComponent } from './web/administrador/regca/regca.component';
+import { EvaluacionComponent } from './web/administrador/evaluacion/evaluacion.component';
+import { NgwWowModule } from 'ngx-wow';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,8 @@ import { RegcaComponent } from './web/administrador/regca/regca.component';
     AdministradorComponent,
     PerfilComponent,
     PerfilvaComponent,
-    RegcaComponent
+    RegcaComponent,
+    EvaluacionComponent
   ],
   imports: [
     BrowserModule,
@@ -43,8 +46,10 @@ import { RegcaComponent } from './web/administrador/regca/regca.component';
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
     CommonModule,
+    NgwWowModule,
     BrowserAnimationsModule, // required animations module
-    ToastrModule.forRoot() // ToastrModule added
+    ToastrModule.forRoot()// ToastrModule added
+   
   ],
   providers: [],
   bootstrap: [AppComponent]

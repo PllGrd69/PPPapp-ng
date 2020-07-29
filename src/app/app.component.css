@@ -1,6 +1,4 @@
-footer{
-    background-color: black;
-    color: blanchedalmond;
-    padding: 20px 10px 10px 10px;
-
+@import '~animate.css/animate.css';
+.logo-img{
+	width: 200px;
 }
