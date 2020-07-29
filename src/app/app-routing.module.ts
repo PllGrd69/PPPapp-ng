@@ -9,6 +9,9 @@ import { PerfilComponent } from './web/administrador/perfil/perfil.component';
 import { PerfilvaComponent } from './web/administrador/perfilva/perfilva.component';
 import { RegcaComponent } from './web/administrador/regca/regca.component';
 import { EvaluacionComponent } from './web/administrador/evaluacion/evaluacion.component';
+import { EstudianteComponent } from './web/estudiante/estudiante.component';
+import { SolicitudcpComponent } from './web/estudiante/solicitudcp/solicitudcp.component';
+import { EstudianteperfilComponent } from './web/estudiante/estudianteperfil/estudianteperfil.component';
 
 
 const routes: Routes = [
@@ -19,7 +22,10 @@ const routes: Routes = [
   {path: 'perfiladmin', component:PerfilComponent},
   {path: 'perfilva', component:PerfilvaComponent},
   {path: 'regca', component:RegcaComponent},
-  {path: 'evaluacion', component:EvaluacionComponent}
+  {path: 'evaluacion', component:EvaluacionComponent},
+  {path: 'estudiante/home',component:EstudianteComponent},
+  {path: 'estudiante/solicitudcp',component:SolicitudcpComponent},
+  {path: 'estudiante/perfil',component:EstudianteperfilComponent}
 ];
 
 @NgModule({

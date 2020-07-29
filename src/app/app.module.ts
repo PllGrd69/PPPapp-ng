@@ -24,6 +24,10 @@ import { PerfilvaComponent } from './web/administrador/perfilva/perfilva.compone
 import { RegcaComponent } from './web/administrador/regca/regca.component';
 import { EvaluacionComponent } from './web/administrador/evaluacion/evaluacion.component';
 import { NgwWowModule } from 'ngx-wow';
+import { EstudianteComponent } from './web/estudiante/estudiante.component';
+import { SolicitudcpComponent } from './web/estudiante/solicitudcp/solicitudcp.component';
+import { InformeComponent } from './web/estudiante/informe/informe.component';
+import { EstudianteperfilComponent } from './web/estudiante/estudianteperfil/estudianteperfil.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +41,11 @@ import { NgwWowModule } from 'ngx-wow';
     PerfilComponent,
     PerfilvaComponent,
     RegcaComponent,
-    EvaluacionComponent
+    EvaluacionComponent,
+    EstudianteComponent,
+    SolicitudcpComponent,
+    InformeComponent,
+    EstudianteperfilComponent
   ],
   imports: [
     BrowserModule,
