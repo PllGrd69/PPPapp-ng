@@ -25,7 +25,7 @@ const routes: Routes = [
   {path: 'evaluacion', component:EvaluacionComponent},
   {path: 'estudiante/home',component:EstudianteComponent},
   {path: 'estudiante/solicitudcp',component:SolicitudcpComponent},
-  {path: 'estudiante/perfil',component:EstudianteperfilComponent}
+  {path: 'estudiante/perfil',component:EstudianteperfilComponent},
 ];
 
 @NgModule({
