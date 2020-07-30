@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { EmpresaComponent } from './web/empresa/empresa.component';
 import { HomeComponent } from './web/home/home.component';
 import { LoginComponent } from './web/login/login.component';
 import { AdministradorComponent } from './web/administrador/administrador.component';
@@ -15,17 +14,15 @@ import { EstudianteperfilComponent } from './web/estudiante/estudianteperfil/est
 
 
 const routes: Routes = [
-  {path:'empresa',component:EmpresaComponent},
-  {path:'home',component:HomeComponent},
   {path: '',component:LoginComponent},
   {path: 'administrador',component:AdministradorComponent, canActivate:[AuthGuard]},
-  {path: 'perfiladmin', component:PerfilComponent},
-  {path: 'perfilva', component:PerfilvaComponent},
-  {path: 'regca', component:RegcaComponent},
-  {path: 'evaluacion', component:EvaluacionComponent},
-  {path: 'estudiante/home',component:EstudianteComponent},
-  {path: 'estudiante/solicitudcp',component:SolicitudcpComponent},
-  {path: 'estudiante/perfil',component:EstudianteperfilComponent},
+  {path: 'perfiladmin', component:PerfilComponent, canActivate:[AuthGuard]},
+  {path: 'perfilva', component:PerfilvaComponent, canActivate:[AuthGuard]},
+  {path: 'regca', component:RegcaComponent, canActivate:[AuthGuard]},
+  {path: 'evaluacion', component:EvaluacionComponent, canActivate:[AuthGuard]},
+  {path: 'estudiante/home',component:EstudianteComponent, canActivate:[AuthGuard]},
+  {path: 'estudiante/solicitudcp',component:SolicitudcpComponent, canActivate:[AuthGuard]},
+  {path: 'estudiante/perfil',component:EstudianteperfilComponent, canActivate:[AuthGuard]},
 ];
 
 @NgModule({

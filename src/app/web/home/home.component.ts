@@ -8,25 +8,9 @@ import { FormsModule } from '@angular/forms'
 })
 export class HomeComponent implements OnInit {
 
-  public nom:string;
-
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  nombre="Juan Perez";
-  edad=18;
-  soltero=true;
-  habilidades=['programar','Jugar Futbol','Dibujar','VideoJuegos'];
-  cumple=new Date(1998, 4, 15);
-  precio=50.80;
-
-  mostrarMensaje(){
-    alert("hola mundo angular");
-  }
-
-  persona={
-    nom: "Angel Condori"
-  }
 }
