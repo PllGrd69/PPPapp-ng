@@ -3,16 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false,
+  production: true,
   firebaseConfig: {
-    apiKey: "AIzaSyCY5T3n5yRnD_vJ-Iz3GA2rmJH0z83V1Ow",
-    authDomain: "pppapp-f9509.firebaseapp.com",
-    databaseURL: "https://pppapp-f9509.firebaseio.com",
-    projectId: "pppapp-f9509",
-    storageBucket: "pppapp-f9509.appspot.com",
-    messagingSenderId: "359183562796",
-    appId: "1:359183562796:web:32086d01f597f84953f989",
-    measurementId: "G-K23M0LWM8D"
+    apiKey: "AIzaSyAoPb31uWE7ZFs7mD0POIwFPi7fRJ2bnm0",
+    authDomain: "webppp-app.firebaseapp.com",
+    databaseURL: "https://webppp-app.firebaseio.com",
+    projectId: "webppp-app",
+    storageBucket: "webppp-app.appspot.com",
+    messagingSenderId: "99732980454",
+    appId: "1:99732980454:web:9378a40929f2e2b4013127",
+    measurementId: "G-PJRWPQCEJP"
   }
 };
 
